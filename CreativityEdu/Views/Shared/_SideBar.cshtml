@@ -1,0 +1,141 @@
+﻿<div class="sidebar-wrapper scrollbar-inner">
+    <div class="sidebar-content">
+        <div class="user">
+            <div class="avatar-sm float-left mr-2">
+                <img src="~/assets/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
+            </div>
+            <div class="info">
+                <a data-toggle="collapse" href="#collapseExample" aria-expanded="true">
+                    <span>
+                        Creativity
+                        <span class="user-level">Administrator</span>
+                        <span class="caret"></span>
+                    </span>
+                </a>
+                <div class="clearfix"></div>
+
+                <div class="collapse in" id="collapseExample">
+                    <ul class="nav">
+                        <li>
+                            <a href="#profile">
+                                <span class="link-collapse">My Profile</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#edit">
+                                <span class="link-collapse">Edit Profile</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#settings">
+                                <span class="link-collapse">Settings</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <ul class="nav">
+            <li class="nav-item">
+                <a href="../index.html">
+                    <a href="@Url.Action("Index","Home")" > <i class="fas fa-home"></i>
+                    <p>Dashboard</p></a> 
+                </a>
+            </li>
+
+            <li class="nav-item active submenu">
+                <a data-toggle="collapse" href="#base">
+                    <i class="fas fa-layer-group"></i>
+                    <p>Student Dashboard</p>
+                    <span class="caret"></span>
+                </a>
+                <div class="collapse show" id="base">
+                    <ul class="nav nav-collapse">
+                        <li>
+                            <a href="@Url.Action("Index","Student")">
+                                <span class="sub-item">View Student</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=".@Url.Action("Create","Student")">
+                                <span class="sub-item">Create Student</span>
+                            </a>
+                        </li>
+                        
+
+
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item active submenu">
+                <a data-toggle="collapse" href="#forms">
+                    <i class="fas fa-pen-square"></i>
+                    <p>Employee Dashboard</p>
+                    <span class="caret"></span>
+                </a>
+                <div class="collapse" id="forms">
+                    <ul class="nav nav-collapse">
+                        <li>
+                            <a href="@Url.Action("Index","Employess")">
+                                <span class="sub-item">View Employee</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Create","Employess")">
+                                <span class="sub-item">Create Employee</span>
+                            </a>
+                        </li>
+                        <li>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item active submenu">
+                <a data-toggle="collapse" href="#forms">
+                    <i class="fas fa-pen-square"></i>
+                    <p>Course Dashboard</p>
+                    <span class="caret"></span>
+                </a>
+                <div class="collapse" id="forms">
+                    <ul class="nav nav-collapse">
+                        <li>
+                            <a href="@Url.Action("Index","Employess")">
+                                <span class="sub-item">View Course</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Create","Employess")">
+                                <span class="sub-item">Create Course</span>
+                            </a>
+                        </li>
+                       
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item active submenu">
+                <a data-toggle="collapse" href="#forms">
+                    <i class="fas fa-pen-square"></i>
+                    <p>Teacher Dashboard</p>
+                    <span class="caret"></span>
+                </a>
+                <div class="collapse" id="forms">
+                    <ul class="nav nav-collapse">
+                        <li>
+                            <a href="@Url.Action("Index","Employess")">
+                                <span class="sub-item">View Teacher</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Create","Employess")">
+                                <span class="sub-item">Create Teacher</span>
+                            </a>
+                        </li>
+                       
+                    </ul>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</div>
